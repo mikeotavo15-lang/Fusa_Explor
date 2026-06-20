@@ -1,7 +1,7 @@
 rules_version = '2';
 service cloud.firestore {
   match /databases/{database}/documents {
-    // 0. Global Safety Net
+  
     match /{document=**} {
       allow read, write: if false;
     }
@@ -68,7 +68,7 @@ service cloud.firestore {
     }
 
 
-    // Perfiles de usuario
+    
     match /usuarios/{userId} {
       allow read: if isSignedIn();
       allow create: if isOwner(userId) && (
@@ -85,13 +85,13 @@ service cloud.firestore {
       )) || isAdmin();
     }
 
-    // Categorías
+
     match /categorias/{categoriaId} {
       allow read: if true;
       allow write: if isAdmin() && isValidCategoria(incoming());
     }
 
-    // Lugares
+  
     match /lugares/{lugarId} {
       allow read: if true;
       allow create: if (isAdmin() || isEmailAdmin(request.auth.token.get('email', ''))) 
@@ -105,7 +105,7 @@ service cloud.firestore {
       allow delete: if isAdmin();
     }
 
-    // Comentarios
+
     match /{path=**}/comentarios/{comentarioId} {
       allow read: if true;
     }
@@ -116,7 +116,7 @@ service cloud.firestore {
       allow update, delete: if isAdmin();
     }
 
-    // Reportes en tiempo real tipo Waze
+  
     match /reportes/{reporteId} {
       allow read: if true;
       allow create: if isSignedIn() && isValidReporte(incoming())
