@@ -44,7 +44,6 @@ Plataforma que promueve el turismo en Fusagasugá, Cundinamarca.
 
 ### Pasos de Instalación
 
-```bash
 # 1. Clonar el repositorio
 git clone https://github.com/mikeotavo15-lang/Fusa_Explor.git
 
