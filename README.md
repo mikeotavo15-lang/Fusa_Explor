@@ -44,22 +44,22 @@ Plataforma que promueve el turismo en Fusagasugá, Cundinamarca.
 
 ### Pasos de Instalación
 
-# 1. Clonar el repositorio
+- 1. Clonar el repositorio
 git clone https://github.com/mikeotavo15-lang/Fusa_Explor.git
 
-# 2. Entrar al directorio
+- 2. Entrar al directorio
 cd Fusa_Explor
 
-# 3. Instalar dependencias
+- 3. Instalar dependencias
 npm install
 
-# 4. Configurar variables de entorno
+- 4. Configurar variables de entorno
 cp .env.example .env
 
-# 5. Editar .env con tus credenciales de Firebase
+- 5. Editar .env con tus credenciales de Firebase
 
-# 6. Ejecutar en modo desarrollo
+- 6. Ejecutar en modo desarrollo
 npm run dev
 
-# 7. Abrir en el navegador
-# http://localhost:5173
+- 7. Abrir en el navegador
+- http://localhost:5173
