@@ -1,4 +1,4 @@
-# Security Specification - FUSA EXPLORER
+# Security Specification - FUSA EXPLOR
 
 ## Data Invariants
 1. A user can only edit their own profile.
