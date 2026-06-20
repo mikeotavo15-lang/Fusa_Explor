@@ -34,3 +34,33 @@ Plataforma que promueve el turismo en Fusagasugá, Cundinamarca.
 | Open-Meteo | API | Clima |
 | Framer Motion | 10.x | Animaciones |
 
+## Instalación
+
+### Requisitos Previos
+
+- Node.js 18 o superior
+- NPM o Yarn
+- Cuenta de Firebase
+
+### Pasos de Instalación
+
+```bash
+# 1. Clonar el repositorio
+git clone https://github.com/mikeotavo15-lang/Fusa_Explor.git
+
+# 2. Entrar al directorio
+cd Fusa_Explor
+
+# 3. Instalar dependencias
+npm install
+
+# 4. Configurar variables de entorno
+cp .env.example .env
+
+# 5. Editar .env con tus credenciales de Firebase
+
+# 6. Ejecutar en modo desarrollo
+npm run dev
+
+# 7. Abrir en el navegador
+# http://localhost:5173
