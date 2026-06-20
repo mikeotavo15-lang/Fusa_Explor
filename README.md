@@ -6,7 +6,7 @@
 ![Tailwind](https://img.shields.io/badge/Tailwind-3.0-06B6D4)
 ![Firebase](https://img.shields.io/badge/Firebase-9.0-FFCA28)
 
-Plataformaque promueve el turismo en Fusagasugá, Cundinamarca.
+Plataforma que promueve el turismo en Fusagasugá, Cundinamarca.
 
 ##  Características
 
