@@ -1,4 +1,4 @@
-# 🌸 FUSA EXPLORER
+#  FUSA EXPLOR
 
 ![Version](https://img.shields.io/badge/version-1.0.0-blue)
 ![React](https://img.shields.io/badge/React-18-61DAFB)
@@ -6,21 +6,21 @@
 ![Tailwind](https://img.shields.io/badge/Tailwind-3.0-06B6D4)
 ![Firebase](https://img.shields.io/badge/Firebase-9.0-FFCA28)
 
-Plataforma de turismo colaborativo para Fusagasugá, Cundinamarca.
+Plataformaque promueve el turismo en Fusagasugá, Cundinamarca.
 
-## 📱 Características
+##  Características
 
-- ✅ **Autenticación**: Email/contraseña, Google y Facebook
-- ✅ **Lugares Turísticos**: Lista, detalle, búsqueda y filtrado
-- ✅ **Comentarios**: Reseñas con puntuación y modo anónimo
-- ✅ **Mapa Waze**: Reportes de tránsito en tiempo real
-- ✅ **Clima**: Temperatura, pronóstico y comparativa de zonas
-- ✅ **Favoritos y Guardados**: Persistencia en localStorage
-- ✅ **Modo Oscuro/Claro**: Personalización de la interfaz
-- ✅ **Admin**: CRUD completo de lugares
-- ✅ **Diseño Responsivo**: Adaptado a móviles y escritorio
+-  **Autenticación**: Email/contraseña, Google y Facebook
+-  **Lugares Turísticos**: Lista, detalle, búsqueda y filtrado
+-  **Comentarios**: Reseñas con puntuación y modo anónimo
+-  **Mapa**: Reportes de tránsito en tiempo real
+-  **Clima**: Temperatura, pronóstico y comparativa de zonas
+-  **Favoritos y Guardados**: Persistencia en localStorage
+-  **Modo Oscuro/Claro**: Personalización de la interfaz
+-  **Admin**: CRUD completo de lugares
+-  **Diseño Responsivo**: Adaptado a móviles y escritorio
 
-## 🛠️ Tecnologías
+##  Tecnologías
 
 | Tecnología | Versión | Propósito |
 |------------|---------|-----------|
@@ -34,4 +34,3 @@ Plataforma de turismo colaborativo para Fusagasugá, Cundinamarca.
 | Open-Meteo | API | Clima |
 | Framer Motion | 10.x | Animaciones |
 
-## 📂 Estructura del Proyecto
